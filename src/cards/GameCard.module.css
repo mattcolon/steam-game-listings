@@ -1,0 +1,33 @@
+.card {
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.capsule {
+	display: flex;
+
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+	height: 38px;
+	color: white;
+	background-color: black;
+
+	.purchaseInformation {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 100%;
+	}
+}

@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  padding-top: 16px;
+  overflow: auto;
+  font-family: "Motiva Sans", Sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(15, 25, 36);
+}
+
+.cardRow {
+  width: 940px;
+  padding-bottom: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}

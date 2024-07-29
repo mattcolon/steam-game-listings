@@ -1,0 +1,11 @@
+.new {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 8px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgb(58, 155, 237);
+}

@@ -1,0 +1,13 @@
+.osIcons {
+	padding-left: 8px;
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	
+	svg {
+		width: 15px;
+		height: 15px;
+		display: block;
+		color: white;
+	}
+}
